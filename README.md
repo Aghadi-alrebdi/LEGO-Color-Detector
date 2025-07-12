@@ -92,15 +92,15 @@ cv2.destroyAllWindows()
 ## Project Screenshot  
 Below are screenshots of the LEGO color detection interface at different moments:
 
-![Screenshot 1 - Red Brick Detection](screenshot-red.jpg)
+![Screenshot 1 - Red Brick Detection](screenshot-red.png)
 
-![Screenshot 2 - Green Brick Detection](screenshot-green.jpg)
+![Screenshot 2 - Green Brick Detection](screenshot-green.png)
 
-![Screenshot 3 - Blue Brick Detection](screenshot-blue.jpg)
+![Screenshot 3 - Blue Brick Detection](screenshot-blue.png)
 
-![Screenshot 1 - Yellow Brick Detection](screenshot-yellow.jpg)
+![Screenshot 4 - Yellow Brick Detection](screenshot-yellow.png)
 
-![Screenshot 2 - Black Brick Detection](screenshot-black.jpg)
+![Screenshot 5 - Black Brick Detection](screenshot-black.png)
 
 
 ---
