@@ -3,8 +3,7 @@
 ---
 
 ## Project Title  
-**Real-Time Detection of LEGO Brick Colors using OpenCV
-**
+**Real-Time Detection of LEGO Brick Colors using OpenCV**
 
 ---
 
