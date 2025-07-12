@@ -13,16 +13,15 @@ The objective of this project is to create a real-time color detection system th
 ---
 
 ## Description  
-This project detects LEGO bricks based on their colors using color thresholding in HSV color space. It identifies six different LEGO colors:
+This project detects LEGO bricks based on their colors using color thresholding in HSV color space. It identifies Five different LEGO colors:
 
 - **Red**
 - **Blue**
 - **Green**
 - **Yellow**
 - **Black**
-- **White**
 
-The webcam feed is processed in real-time, and a rectangle at the center of the screen is used to analyze the region of interest (ROI). The detected color is displayed on the video feed.
+The webcam feed is processed in real-time, and a square at the center of the screen is used to analyze the region of interest (ROI). The detected color is displayed on the video feed.
 
 ---
 
@@ -48,8 +47,7 @@ LEGO_COLORS = {
     "Blue":   [[100, 100, 50], [130, 255, 255]],
     "Green":  [[40, 50, 50], [80, 255, 255]],
     "Yellow": [[20, 100, 100], [30, 255, 255]],
-    "Black":  [[0, 0, 0], [180, 255, 50]],      
-    "White":  [[0, 0, 200], [180, 50, 255]]     
+    "Black":  [[0, 0, 0], [180, 255, 50]],        
 }
 
 def detect_color(frame):
@@ -99,6 +97,10 @@ Below are screenshots of the LEGO color detection interface at different moments
 ![Screenshot 2 - Green Brick Detection](screenshot-green.jpg)
 
 ![Screenshot 3 - Blue Brick Detection](screenshot-blue.jpg)
+
+![Screenshot 1 - Yellow Brick Detection](screenshot-yellow.jpg)
+
+![Screenshot 2 - Black Brick Detection](screenshot-black.jpg)
 
 
 ---
